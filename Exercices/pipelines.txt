@@ -1,0 +1,14 @@
+1. Commande pour le comptage des annotations par années :
+grep '2016' *.ann | wc -l
+grep '2017' *.ann | wc -l
+grep '2018' *.ann | wc -l
+2. Commande pour le comptage des lieux (Location) par années :
+grep 'Location' *.ann | grep '2016' | wc -l
+grep 'Location' *.ann | grep '2017' | wc -l
+grep 'Location' *.ann | grep '2018' | wc -l
+3. Commande pour classer les 15 lieux les plus cités pour chaque année :
+grep 'Location' *.ann | grep '2016' | cut -f 2 | sort | uniq -c | sort -nr | head -n 15 > Exercices/classement_2016.txt
+grep 'Location' *.ann | grep '2017' | cut -f 2 | sort | uniq -c | sort -nr | head -n 15 > Exercices/classement_2017.txt
+grep 'Location' *.ann | grep '2018' | cut -f 2 | sort | uniq -c | sort -nr | head -n 15 > Exercices/classement_2018.txt
+4. Commande pour classer les lieux en mai toutes années confondues :
+grep 'Location' *.ann | grep '2016-05\|2017-05\|2018-05' | cut -f 2 | sort | uniq -c | sort -nr > Exercices/classement_mai.txt

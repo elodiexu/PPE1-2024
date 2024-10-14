@@ -1,0 +1,15 @@
+ 164 Location 0 6
+  32 Location 0 10
+  20 Location 0 5
+  14 Location 0 8
+  13 Location 0 7
+   9 Location 0 9
+   7 Location 0 4
+   4 Location 208 213
+   4 Location 178 184
+   3 Location 813 818
+   3 Location 8 14
+   3 Location 4 14
+   3 Location 286 292
+   3 Location 280 286
+   3 Location 278 284
