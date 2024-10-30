@@ -1,7 +1,9 @@
 # Journal de bord du projet encadré
-
+<<<<<<< HEAD
 
 Cette ligne doit rester après correction
+
+
 
 
 
