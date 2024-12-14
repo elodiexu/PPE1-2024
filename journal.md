@@ -88,7 +88,7 @@ if [ $# -ne 1 ]
 
 fi：fin de if  
 
-#Miniprojet
+# Miniprojet
 <<<<<<< HEAD
 #excercice 1
 1. Pourquoi ne pas utiliser cat ?
